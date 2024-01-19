@@ -7,11 +7,11 @@ import Footer from './../components/Footer/Footer';
 import { useNavigate } from 'react-router-dom';
 const Home = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    navigate('/help-100823847823627384548');
-  }, [])
+  // useEffect(() => {
+  //   navigate('/help-100823847823627384548');
+  // }, [])
 
   return (
 
