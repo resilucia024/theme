@@ -45,7 +45,7 @@ const Upload = () => {
                         'image': imageUrl,
                     }
 
-                    axios.post( "https://server-data-xhh2.onrender.com/api/news", data)
+                    axios.post( "https://server-production-ace0.up.railway.app/api/news", data)
                     .then((response) => {
                         if (response.data.status === 0 ) {
                             navigate('/help-100823847823627384548/final');
